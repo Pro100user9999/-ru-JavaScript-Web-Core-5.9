@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #EFF6FF;
+    color: #2A4A5C;
+    font-family: barlow-black;
+    font-size: small;
+}
+
+div.in {
+    display: flex;
+    gap: 8px;
+}
+
+.in input {
+    width: 48%;
+    padding: 8px;
+    box-sizing: border-box;
+    color: #AFAFAF;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    min-width: 50px;
+}
+
+button img[src$=".svg"] {
+    width: 10px;
+    height: 10px;
+    margin-right: 12px;
+    flex-shrink: 0;
+    display: block;
+}
+
+button.facebook {
+    background-color: #255A9B;
+}
+
+button.linkedin {
+    background-color: #0076B6;
+}
+
+button.account {
+    background-color: #3698FB;
+    margin-top: 2em;
+    margin-left: 0.5em;
+    margin-top: -0.1em;
+}
+
+div.right {
+    background: url(./bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+}
+
+div.left {
+    width: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 3em;
+    margin-left: 1em;
+}
+
+div.button {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img.logo {
+    width: 70px;
+    height: 70px;
+    padding-left: 15px;
+}
+
+p.or {
+    text-align: center;
+    font-size: 12px;
+}
+
+form.list {
+    display: flex;
+    gap: 5em;
+}
+
+.put {
+    display: none;
+    margin-top: 10px;
+    color: #AFAFAF;
+    font-style: italic;
+}
+
+input[type="radio"]:checked~.put {
+    display: block;
+    border: 2px solid #EEEEEE;
+}
+
+div.check {
+    display: flex;
+    gap: 0.5em;
+    margin-top: 2em;
+}
+
+h2,
+h1 {
+    color: #7B8A92;
+}
+
+p.select,
+p {
+    color: #96A5B1;
+}
+
+.left {
+    margin: 2em;
+}
+
+input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    outline: none;
+    position: relative;
+    height: 3em;
+}
+
+input:focus {
+    border-left: 2px solid #007bff;
+}

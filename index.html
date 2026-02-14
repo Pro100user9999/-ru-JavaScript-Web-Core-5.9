@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My project</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <header></header>
+    <!-- правая сторона сайта -->
+    <div class="right">
+        <img class="logo" src="./logo.svg" alt="logo">
+    </div>
+    <!-- левая сторона сайта -->
+    <div class="left">
+        <h1>Get iintoo in today</h1>
+        <p>
+            There is no charge or obligation upon registration
+        </p>
+        <div class="button"><!-- кнопки -->
+            <button class="facebook">
+                <img src="./facebook.svg" alt="facebook">
+                <span>Register with Facebook</span>
+            </button>
+            <br><br>
+            <button class="linkedin">
+                <img src="./linkedin.svg" alt="linkedin">
+                <span>Register with LinkedIn</span>
+            </button>
+        </div>
+        <br>
+        <div><!-- контейнер между кнопками и водом телефона и эл.почты -->
+            <p class="or">OR</p>
+        </div>
+        <br>
+        <div class="in"><!-- ввод данных почты и телефона -->
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Phone">
+        </div>
+        <div>
+            <h2>What type of investor are you?</h2>
+            <p class="select">Select the type of investor you are below</p>
+            <form class="list"><!-- выбор радиокнопки -->
+                <div>
+                    <input type="radio" name="investor" id="Individual" value="1" checked>
+                    <label for="Individual">Individual</label>
+                    <div class="put"> I am Individual</div>
+                </div>
+                <div>
+                    <input type="radio" name="investor" id="Business" value="2">
+                    <label for="Business">Business</label>
+                    <div class="put">I am Business</div>
+                </div>
+                <div>
+                    <input type="radio" name="investor" id="IRA" value="3">
+                    <label for="Trust">IRA</label>
+                    <div class="put">I am IRA</div>
+                </div>
+                <div>
+                    <input type="radio" name="investor" id="Trust" value="4">
+                    <label for="Trust">Trust</label>
+                    <div class="put">I am Trust</div>
+                </div>
+            </form>
+        </div>
+        <div class="check"><!-- чекбокс -->
+            <input type="checkbox">
+            <p>I agree to the terms and receiving notifications from iintoo <span><a href="#">View full terms</a></span>
+            </p>
+        </div>
+        <div class="acc">
+            <button class="account">
+                <span>Create Account</span>
+            </button>
+        </div>
+    </div>
+</body>
+<footer>
+</footer>
+
+</html>
