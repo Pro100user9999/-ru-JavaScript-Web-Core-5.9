@@ -5,7 +5,7 @@ body {
     flex-direction: row;
     background-color: #EFF6FF;
     color: #2A4A5C;
-    font-family: barlow-black;
+    font-family: Barlow-Bold;
 }
 
 div.in {
@@ -30,7 +30,7 @@ button {
     font-size: 15px;
     font-weight: 400;
     color: #ffffff;
-    min-width: 50px;
+    min-width: 240px;
 }
 
 button img[src$=".svg"] {
