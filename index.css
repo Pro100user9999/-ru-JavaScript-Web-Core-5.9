@@ -11,6 +11,7 @@ body {
 div.in {
     display: flex;
     gap: 8px;
+    margin-top: 40px;
 }
 
 .in input {
