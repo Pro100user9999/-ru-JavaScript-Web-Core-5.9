@@ -5,14 +5,13 @@ body {
     flex-direction: row;
     background-color: #EFF6FF;
     color: #2A4A5C;
-    font-family: Barlow-Bold;
+    font-family: Barlow-Black;
     padding: 2em;
 }
 
 div.in {
     display: flex;
     gap: 8px;
-    margin-top: 40px;
 }
 
 .in input {
@@ -91,12 +90,6 @@ img.logo {
     padding-left: 15px;
 }
 
-p.or {
-    text-align: center;
-    font-size: 12px;
-    margin-top: 40px;
-}
-
 form.list {
     display: flex;
     justify-content: space-between;
@@ -152,3 +145,30 @@ input:focus {
     border-left: 2px solid #007bff;
 }
 
+.hrc {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+.line {
+    flex: none;
+    border: none;
+    background-color: grey;
+    height: 1px;
+    width: 100px;
+    margin: 0;
+    justify-content: center;
+}
+
+.text {
+    white-space: nowrap;
+    padding: 0 10px;
+    margin-top: -0.5em;
+}
+
+.line,
+.text {
+    vertical-align: middle;
+}
