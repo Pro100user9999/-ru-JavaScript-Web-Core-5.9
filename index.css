@@ -100,12 +100,12 @@ p.or {
 form.list {
     display: flex;
     justify-content: space-between;
-    gap: 0.5em;
 }
 
 input[type="radio"],
 label {
     vertical-align: middle;
+    padding-left: 2px;
 }
 
 .put {
