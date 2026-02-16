@@ -6,6 +6,7 @@ body {
     background-color: #EFF6FF;
     color: #2A4A5C;
     font-family: Barlow-Bold;
+    padding: 2em;
 }
 
 div.in {
@@ -31,7 +32,7 @@ button {
     font-size: 15px;
     font-weight: 400;
     color: #ffffff;
-    min-width: 240px;
+    min-width: 210px;
 }
 
 button img[src$=".svg"] {
@@ -52,9 +53,7 @@ button.linkedin {
 
 button.account {
     background-color: #3698FB;
-    margin-top: 2em;
-    margin-left: 0.5em;
-    margin-top: -0.1em;
+    min-width: 140px;
 }
 
 div.right {
@@ -62,15 +61,21 @@ div.right {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 40%;
+    width: 50%;
 }
 
 div.left {
-    width: 60%;
-    background-position: center;
-    background-repeat: no-repeat;
-    gap: 3em;
-    margin-left: 1em;
+    width: 50%;
+    padding: 2em;
+    background-color: white;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+div.right,
+div.left {
+    margin: 0;
 }
 
 div.button {
@@ -94,7 +99,13 @@ p.or {
 
 form.list {
     display: flex;
-    gap: 5em;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+input[type="radio"],
+label {
+    vertical-align: middle;
 }
 
 .put {
@@ -112,7 +123,11 @@ input[type="radio"]:checked~.put {
 div.check {
     display: flex;
     gap: 0.5em;
-    margin-top: 2em;
+    align-items: center;
+}
+
+input[type="checkbox"] p {
+    vertical-align: middle;
 }
 
 h2,
@@ -123,10 +138,6 @@ h1 {
 p.select,
 p {
     color: #96A5B1;
-}
-
-.left {
-    margin: 2em;
 }
 
 input {
@@ -140,3 +151,4 @@ input {
 input:focus {
     border-left: 2px solid #007bff;
 }
+
