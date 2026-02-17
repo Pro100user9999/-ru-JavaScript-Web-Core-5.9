@@ -6,7 +6,7 @@ body {
     background-color: #EFF6FF;
     color: #2A4A5C;
     font-family: Barlow-Black;
-    padding: 2em;
+    padding: 3em;
 }
 
 div.in {
@@ -188,3 +188,10 @@ input#email, input#tel {
     width: 28em;
     outline: none;
 }
+
+.info-icon {
+  font-size: 0.7em;     
+  color: grey;      
+  vertical-align: top;  
+}
+
