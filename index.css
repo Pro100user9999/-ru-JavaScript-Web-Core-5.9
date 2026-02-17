@@ -12,7 +12,7 @@ body {
 div.in {
     display: inline-flex;
     gap: 40px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
