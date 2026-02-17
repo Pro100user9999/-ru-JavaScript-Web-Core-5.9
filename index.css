@@ -185,6 +185,7 @@ input#email:focus {
     justify-content: center;
     border: 1px solid #d9dfe0;
     width: 348px;
+    box-sizing: border-box;
 }
 
 .info label {
@@ -196,6 +197,7 @@ input#email, input#tel {
     border:none;
     width: 348px;
     outline: none;
+    box-sizing: border-box;
 }
 
 .info-icon {
