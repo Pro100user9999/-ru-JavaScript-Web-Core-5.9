@@ -12,13 +12,13 @@ body {
 div.in {
     display: flex;
     gap: 8px;
+    justify-content: center;
+    align-items: center;
 }
 
 .in input {
-    width: 48%;
     padding: 8px;
-    box-sizing: border-box;
-    color: #AFAFAF;
+    border-color: #EFF6FF;
 }
 
 button {
@@ -103,14 +103,16 @@ label {
 
 .put {
     display: none;
-    margin-top: 10px;
+    margin-top: 5px;
     color: #AFAFAF;
     font-style: italic;
 }
 
 input[type="radio"]:checked~.put {
     display: block;
-    border: 2px solid #EEEEEE;
+    border: 1px solid gray;
+    padding: 10px;
+    height: 1em;
 }
 
 div.check {
@@ -133,13 +135,6 @@ p {
     color: #96A5B1;
 }
 
-input {
-    border: 1px solid #ccc;
-    padding: 10px;
-    outline: none;
-    position: relative;
-    height: 3em;
-}
 
 input:focus {
     border-left: 2px solid #007bff;
@@ -171,4 +166,22 @@ input:focus {
 .line,
 .text {
     vertical-align: middle;
+}
+
+.info {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    border: 1px solid #d9dfe0;
+}
+
+.info label {
+    margin-bottom: 0;     
+    font-weight: bold;
+    color: #7B8A92;    
+}
+
+input#email, input#tel {
+    border:none;
+    width: 28em;
 }
