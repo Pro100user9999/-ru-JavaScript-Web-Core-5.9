@@ -11,8 +11,8 @@ body {
 
 div.in {
     display: inline-flex;
-    gap: 8px;
-    justify-content: center;
+    gap: 40px;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -66,7 +66,7 @@ div.right {
 
 div.left {
     width: 50%;
-    padding: 2em;
+    padding: 3em;
     background-color: white;
     align-items: center;
     box-sizing: border-box;
@@ -83,6 +83,7 @@ div.button {
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
+    margin-right: 100px;
 }
 
 img.logo {
@@ -150,9 +151,12 @@ input#email:focus {
     display: flex;
     justify-content: center;
     margin: 30px;
-
 }
 
+.phr {
+    justify-content: space-around;
+    margin-right: 100px;
+}
 .line {
     flex: none;
     border: none;
