@@ -184,6 +184,7 @@ input#email:focus {
     flex-direction: column; 
     justify-content: center;
     border: 1px solid #d9dfe0;
+    width: 348px;
 }
 
 .info label {
