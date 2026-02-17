@@ -109,7 +109,6 @@ label {
     font-style: italic;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap-reverse;
 }
 
 input[type="radio"]:checked~.put {
