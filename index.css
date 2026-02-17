@@ -10,10 +10,11 @@ body {
 }
 
 div.in {
-    display: flex;
+    display: inline-flex;
     gap: 8px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .in input {
@@ -106,6 +107,9 @@ label {
     margin-top: 5px;
     color: #AFAFAF;
     font-style: italic;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
 }
 
 input[type="radio"]:checked~.put {
