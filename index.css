@@ -15,6 +15,7 @@ div.in {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 0;
 }
 
 .in input {
@@ -83,7 +84,7 @@ div.button {
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
-    margin-right: 100px;
+    margin-right: 145px;
 }
 
 img.logo {
@@ -155,7 +156,7 @@ input#email:focus {
 
 .phr {
     justify-content: space-around;
-    margin-right: 100px;
+    margin-right: 145px;
 }
 .line {
     flex: none;
@@ -192,7 +193,7 @@ input#email:focus {
 
 input#email, input#tel {
     border:none;
-    width: 28em;
+    width: 348px;
     outline: none;
 }
 
