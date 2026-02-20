@@ -11,16 +11,53 @@ body {
 
 div.in {
     display: inline-flex;
-    gap: 38px;
+    gap: 40px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    min-width: 300px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #e1eaf1;
 }
 
 .in input {
-    padding: 8px;
-    border-color: #EFF6FF;
+    padding: 5px;
+}
+
+input#tel:focus {
+    border-left: 2px solid #007bff;
+    outline: none;
+}
+input#email:focus {
+    border-left: 2px solid #007bff;
+    outline: none;
+}
+
+.info label {
+    color: rgb(121, 118, 118); 
+    border-left: 2px solid transparent;
+    padding-left: 10px;   
+}
+
+input#email, input#tel {
+    border:none;
+    min-width: 300px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.info:has(input#email:focus) label,
+.info:has(input#tel:focus) label {
+    color: #007bff;
+    border-left-color: #007bff;
+    color: rgb(121, 118, 118);
 }
 
 button {
@@ -84,7 +121,6 @@ div.button {
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
-    margin-right: 145px;
 }
 
 img.logo {
@@ -140,14 +176,6 @@ p {
     color: #96A5B1;
 }
 
-
-input#tel:focus {
-    border-left: 2px solid #007bff;
-}
-input#email:focus {
-    border-left: 2px solid #007bff;
-}
-
 .hrc {
     display: flex;
     justify-content: center;
@@ -156,7 +184,6 @@ input#email:focus {
 
 .phr {
     justify-content: space-around;
-    margin-right: 145px;
 }
 .line {
     flex: none;
@@ -177,27 +204,6 @@ input#email:focus {
 .line,
 .text {
     vertical-align: middle;
-}
-
-.info {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    border: 1px solid #d9dfe0;
-    width: 348px;
-    box-sizing: border-box;
-}
-
-.info label {
-    color: #393c3d; 
-    margin-left: 10px;   
-}
-
-input#email, input#tel {
-    border:none;
-    width: 348px;
-    outline: none;
-    box-sizing: border-box;
 }
 
 .info-icon {
