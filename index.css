@@ -47,7 +47,6 @@ button {
     padding: 10px 15px;
     border: none;
     border-radius: 6px;
-    cursor: pointer;
     font-size: 15px;
     font-weight: 400;
     color: #ffffff;
@@ -186,7 +185,6 @@ input[type="radio"] {
 }
 
 .radiogroup label {
-    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 5px;
