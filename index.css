@@ -9,6 +9,115 @@ body {
     padding: 3em;
 }
 
+div.right {
+    background: url(./img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+div.left {
+    width: 50%;
+    padding: 3em;
+    background-color: white;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+div.right,
+div.left {
+    margin: 0;
+}
+
+h2,
+h1 {
+    color: #7B8A92;
+}
+
+p.select,
+p {
+    color: #96A5B1;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    min-width: 210px;
+}
+
+button img[src$=".svg"] {
+    width: 10px;
+    height: 10px;
+    margin-right: 12px;
+    flex-shrink: 0;
+    display: block;
+}
+
+button.facebook {
+    background-color: #255A9B;
+}
+
+button.linkedin {
+    background-color: #0076B6;
+}
+
+button.account {
+    background-color: #3698FB;
+    min-width: 140px;
+}
+
+div.button {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img.logo {
+    width: 70px;
+    height: 70px;
+    padding-left: 15px;
+}
+
+.hrc {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.phr {
+    justify-content: space-around;
+}
+.line {
+    flex: none;
+    border: none;
+    background-color: grey;
+    height: 1px;
+    width: 100px;
+    margin: 0;
+    justify-content: center;
+}
+
+.text {
+    white-space: nowrap;
+    padding: 0 10px;
+    margin-top: -0.5em;
+}
+
+.line,
+.text {
+    vertical-align: middle;
+}
+
 div.in {
     display: inline-flex;
     gap: 40px;
@@ -60,82 +169,13 @@ input#email, input#tel {
     color: rgb(121, 118, 118);
 }
 
-button {
-    display: flex;
-    align-items: center;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 15px;
-    font-weight: 400;
-    color: #ffffff;
-    min-width: 210px;
-}
-
-button img[src$=".svg"] {
-    width: 10px;
-    height: 10px;
-    margin-right: 12px;
-    flex-shrink: 0;
-    display: block;
-}
-
-button.facebook {
-    background-color: #255A9B;
-}
-
-button.linkedin {
-    background-color: #0076B6;
-}
-
-button.account {
-    background-color: #3698FB;
-    min-width: 140px;
-}
-
-div.right {
-    background: url(./img/bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-}
-
-div.left {
-    width: 50%;
-    padding: 3em;
-    background-color: white;
-    align-items: center;
-    box-sizing: border-box;
-
-}
-
-div.right,
-div.left {
-    margin: 0;
-}
-
-div.button {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-img.logo {
-    width: 70px;
-    height: 70px;
-    padding-left: 15px;
-}
-
 form.list {
     display: flex;
     justify-content: space-between;
 }
 
 input[type="radio"],
-label {
+label, .info-icon {
     vertical-align: middle;
     padding-left: 2px;
 }
@@ -156,6 +196,12 @@ input[type="radio"]:checked~.put {
     height: 1em;
 }
 
+.info-icon {
+  font-size: 0.7em;     
+  color: grey;      
+  vertical-align: middle;  
+}
+
 div.check {
     display: flex;
     gap: 0.5em;
@@ -166,50 +212,6 @@ input[type="checkbox"] p {
     vertical-align: middle;
 }
 
-h2,
-h1 {
-    color: #7B8A92;
-}
 
-p.select,
-p {
-    color: #96A5B1;
-}
-
-.hrc {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-}
-
-.phr {
-    justify-content: space-around;
-}
-.line {
-    flex: none;
-    border: none;
-    background-color: grey;
-    height: 1px;
-    width: 100px;
-    margin: 0;
-    justify-content: center;
-}
-
-.text {
-    white-space: nowrap;
-    padding: 0 10px;
-    margin-top: -0.5em;
-}
-
-.line,
-.text {
-    vertical-align: middle;
-}
-
-.info-icon {
-  font-size: 0.7em;     
-  color: grey;      
-  vertical-align: top;  
-}
 
 
