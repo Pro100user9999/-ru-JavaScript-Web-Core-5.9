@@ -140,10 +140,7 @@ div.in {
     padding: 5px;
 }
 
-input#tel:focus {
-    border-left: 2px solid #007bff;
-    outline: none;
-}
+input#tel:focus,
 input#email:focus {
     border-left: 2px solid #007bff;
     outline: none;
@@ -170,36 +167,48 @@ input#email, input#tel {
 }
 
 form.list {
-    display: flex;
     justify-content: space-between;
 }
 
 input[type="radio"],
 label, .info-icon {
     vertical-align: middle;
-    padding-left: 2px;
 }
 
-.put {
-    display: none;
-    margin-top: 5px;
-    color: #AFAFAF;
-    font-style: italic;
+input[type="radio"] {
+    margin-right: -25px;
+}
+
+.radiogroup {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.radiogroup label {
+    cursor: pointer;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 5px;
 }
 
-input[type="radio"]:checked~.put {
-    display: block;
-    border: 1px solid gray;
+.radiotext .text {
     padding: 10px;
-    height: 1em;
+    width: fit-content;
+    min-width: 150px;
+    border: 1px solid #030303;
+    color: #030303;
+    display: none;
+}
+
+#Individual:checked ~ .radiotext .Individual {
+    display: inline-block;
 }
 
 .info-icon {
   font-size: 0.7em;     
-  color: grey;      
-  vertical-align: middle;  
+  color: grey;
+  margin-left: -25px;
 }
 
 div.check {

@@ -31,10 +31,10 @@
         </div>
         <div class="phr"><!-- контейнер между кнопками и водом телефона и эл.почты -->
             <div class="hrc">
-            <hr class="line">
-            <span class="text">OR</span>
-            <hr class="line">
-        </div>
+                <hr class="line">
+                <span class="text">OR</span>
+                <hr class="line">
+            </div>
         </div>
         <div class="in"><!-- ввод данных почты и телефона -->
             <div class="info">
@@ -45,31 +45,27 @@
                 <label for="tel" class="tel">Phone</label>
                 <input type="tel" id="tel">
             </div>
-            
+
         </div>
         <div>
             <h2>What type of investor are you?</h2>
             <p class="select">Select the type of investor you are below</p>
             <form class="list"><!-- выбор радиокнопки -->
-                <div>
-                    <input type="radio" name="investor" id="Individual" value="1" checked>
+                <div class="radiogroup">
+                    <input type="radio" name="investor" id="Individual" value="Individual" checked>
                     <label for="Individual">Individual</label><span class="info-icon">&#9432;</span>
-                    <div class="put" id="put1"> I am Individual</div>
-                </div>
-                <div>
-                    <input type="radio" name="investor" id="Business" value="2">
+                    <input type="radio" name="investor" id="Business" value="Business">
                     <label for="Business">Business</label><span class="info-icon">&#9432;</span>
-                    <div class="put" id="put2">I am Business</div>
-                </div>
-                <div>
-                    <input type="radio" name="investor" id="IRA" value="3">
-                    <label for="Trust">IRA</label><span class="info-icon">&#9432;</span>
-                    <div class="put" id="put3">I am IRA</div>
-                </div>
-                <div>
-                    <input type="radio" name="investor" id="Trust" value="4">
+                    <input type="radio" name="investor" id="IRA" value="IRA">
+                    <label for="IRA">IRA</label><span class="info-icon">&#9432;</span>
+                    <input type="radio" name="investor" id="Trust" value="Trust">
                     <label for="Trust">Trust</label><span class="info-icon">&#9432;</span>
-                    <div class="put" id="put4">I am Trust</div>
+                </div>
+                <div class="radiotext">
+                    <span class="text Individual"> I am Individual</span>
+                    <span class="text Business">I am Business</span>
+                    <span class="text IRA">I am IRA</span>
+                    <span class="text Trust">I am Trust</span>
                 </div>
             </form>
         </div>
@@ -83,6 +79,7 @@
                 <span>Create Account</span>
             </button>
         </div>
-     </div>
+    </div>
 </body>
-</html> 
+
+</html>
