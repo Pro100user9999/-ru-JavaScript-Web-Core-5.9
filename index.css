@@ -196,14 +196,18 @@ input[type="radio"] {
     padding: 10px;
     width: fit-content;
     min-width: 150px;
-    border: 1px solid #030303;
-    color: #030303;
+    border: 1px solid #a8a0a0;
+    color: #918d8d;
+    gap: 40px;
     display: none;
 }
-
-#Individual:checked ~ .radiotext .Individual {
-    display: inline-block;
+form.list:has(#Individual:checked) .Individual,
+form.list:has(#Business:checked) .Business,
+form.list:has(#IRA:checked) .IRA,
+form.list:has(#Trust:checked) .Trust {
+    display: block;
 }
+
 
 .info-icon {
   font-size: 0.7em;     
