@@ -129,7 +129,7 @@ div.in {
     display: flex;
     flex-direction: column; 
     justify-content: center;
-    min-width: 250px;
+    min-width: 220px;
     box-sizing: border-box;
     border-radius: 5px;
     border: 1px solid #e1eaf1;
@@ -153,7 +153,7 @@ input#email:focus {
 
 input#email, input#tel {
     border:none;
-    min-width: 250px;
+    min-width: 220px;
     outline: none;
     box-sizing: border-box;
 }
