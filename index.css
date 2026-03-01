@@ -118,11 +118,13 @@ img.logo {
 }
 
 div.in {
-    display: inline-flex;
+    display: flex;
     gap: 40px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .info {
@@ -192,8 +194,8 @@ input[type="radio"] {
 
 .radiotext .text {
     padding: 10px;
-    width: fit-content;
-    min-width: 150px;
+    width: 100%;
+    min-height: 5rem;
     border: 1px solid #EEEEEE;
     color: #AFAFAF;
     gap: 40px;
